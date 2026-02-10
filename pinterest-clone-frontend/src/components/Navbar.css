@@ -1,0 +1,74 @@
+.navbar {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  background: white;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-bottom: 1px solid #eaeaea;
+}
+
+/* IZQUIERDA */
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo {
+  background: #e60023;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brand {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* CENTRO */
+.navbar-center {
+  flex: 1;
+  padding: 0 16px;
+}
+
+.navbar-center input {
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 24px;
+  border: none;
+  background: #efefef;
+  outline: none;
+  font-size: 14px;
+}
+
+.navbar-center input:focus {
+  background: #e2e2e2;
+}
+
+/* DERECHA */
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.profile {
+  width: 36px;
+  height: 36px;
+  background: #ddd;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  cursor: pointer;
+}

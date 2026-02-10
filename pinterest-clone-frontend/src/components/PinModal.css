@@ -1,0 +1,49 @@
+.modal-body {
+  display: flex;
+  gap: 24px;
+  max-width: 900px;
+}
+
+.modal-body img {
+  width: 400px;
+  border-radius: 16px;
+}
+
+/* INFO */
+.pin-info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.pin-info h2 {
+  margin: 0;
+}
+
+.pin-user {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.avatar {
+  width: 36px;
+  height: 36px;
+  background: #ddd;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.save-main {
+  margin-top: auto;
+  background: #e60023;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}

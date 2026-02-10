@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fafafa;
+}
+
+/* CONTENEDOR PINTEREST */
+.container {
+  column-count: 5;
+  column-gap: 16px;
+  padding: 16px;
+}
+
+/* TARJETA */
+.pin {
+  break-inside: avoid;
+  margin-bottom: 16px;
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.pin:hover {
+  transform: scale(1.02);
+}
+
+.pin img {
+  width: 100%;
+  display: block;
+}

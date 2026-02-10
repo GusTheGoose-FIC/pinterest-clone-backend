@@ -1,0 +1,39 @@
+.pin {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  cursor: zoom-in;
+}
+
+.pin img {
+  width: 100%;
+  display: block;
+  border-radius: 16px;
+}
+
+/* OVERLAY */
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.pin:hover .overlay {
+  opacity: 1;
+}
+
+/* BOTÓN */
+.save-btn {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: #e60023;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}

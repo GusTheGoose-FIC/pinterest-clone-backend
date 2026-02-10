@@ -1,0 +1,15 @@
+.masonry {
+  column-count: 5;
+  column-gap: 16px;
+  padding: 20px;
+}
+
+.pin {
+  break-inside: avoid;
+  margin-bottom: 16px;
+}
+
+.pin img {
+  width: 100%;
+  border-radius: 12px;
+}
